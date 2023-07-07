@@ -32,4 +32,7 @@
 
 - about styling buttons: put class directly on your link. always use padding to create "size" of the button, and not width and height. the padding left and right needs to be bigger number than the padding on the top and bottom. in general, use 1:2.5 patio for the top and sides. But it really depends on the button. if it's a small button, you can use 1:1.5. if it's a big button, you can use 1:3.5. if it's a really big button, you can use 1:4.5. it's all about the look and feel of the button. you can also use a border-radius to round the corners of the button. you can also use a box-shadow to give it a little bit of depth. you can also use a text-shadow to give it a little bit of depth. you can also use a transition to make it look like it's moving when you hover over it. you can also use a transform to make it look like it's moving when you hover over it.
 
-- specificity in CSS is all about how specific our selectors are. the more specific they are, the higher priority they have.
+- specificity in CSS is all about how specific our selectors are. the more specific they are, the higher priority they have. from lowest to highest. element, class, id, inline styles. eg. p, .class, #id, style="color: red;"
+  - this is one of the reasons many class naming conventions only use classes, and not ids. because ids are too specific, and can use issues.
+  - generals rules get put on element selectors (e.g. body, headings, paragraphs, etc.), and specific rules get put on class selectors. ids are rarely used in CSS, and are mostly used for JavaScript.
+  - if you have two selectors that are the same specificity, the one that comes last in the CSS file will win.
