@@ -51,6 +51,26 @@ a {
   color: #e4e4e4;
 }
 
-a:hover {
+/* a:hover {
   color: gray;
+} */
+
+.button {
+  background: #ffe600;
+  color: black;
+  padding: 15 30px;
+  /* // prevent the button from too wide and covering the text */
+  display: inline-block;
+  margin-bottom: 50px;
+  /* give some border-radius, text-shadow, box-shadow and transition and transform */
+  border-radius: 5px;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.7);
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.7);
+  transition: all 0.2s ease-in-out;
+  transform: translateX(0);
+}
+
+.button:hover {
+  background: #e4e4e4;
+  color: black;
 }

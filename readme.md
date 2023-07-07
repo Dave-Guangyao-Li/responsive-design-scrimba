@@ -23,6 +23,13 @@
   - span elemtn is a generic inline element that can be used for styling purposes, or to wrap other inline elements. we put class on span to style it.
 
 - about styling links
+
   - links have different "states" that we can style as well.
   - default "link" state; Visited; Focus; Hover; Active(actively clicking on it)
   - we can style these states by using pseudo classes. eg. a:link, a:visited, a:focus, a:hover, a:active
+
+- inline block: sometimes we need something which can stay inline but which we can set margins and paddings on
+
+- about styling buttons: put class directly on your link. always use padding to create "size" of the button, and not width and height. the padding left and right needs to be bigger number than the padding on the top and bottom. in general, use 1:2.5 patio for the top and sides. But it really depends on the button. if it's a small button, you can use 1:1.5. if it's a big button, you can use 1:3.5. if it's a really big button, you can use 1:4.5. it's all about the look and feel of the button. you can also use a border-radius to round the corners of the button. you can also use a box-shadow to give it a little bit of depth. you can also use a text-shadow to give it a little bit of depth. you can also use a transition to make it look like it's moving when you hover over it. you can also use a transform to make it look like it's moving when you hover over it.
+
+- specificity in CSS is all about how specific our selectors are. the more specific they are, the higher priority they have.
