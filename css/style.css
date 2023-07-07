@@ -27,3 +27,30 @@ p {
   margin-top: 40px;
   margin-bottom: 0;
 }
+.accent-color {
+  color: #ffe600;
+}
+
+/* a:link,
+a:visited {
+  color: #ffe600;
+}
+
+a:focus {
+  color: aquamarine;
+}
+
+a:hover {
+  color: firebrick;
+}
+a:active {
+  color: plum;
+} */
+
+a {
+  color: #e4e4e4;
+}
+
+a:hover {
+  color: gray;
+}
